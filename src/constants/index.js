@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    fm,
+    ps,
+    prisma,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +49,7 @@ import {
       icon: web,
     },
     {
-      title: "Reactjs/Nextjs",
+      title: "MERN/Nextjs",
       icon: mobile,
     },
     {
@@ -61,13 +64,15 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "HTML",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS",
       icon: css,
     },
+   
+
     {
       name: "JavaScript",
       icon: javascript,
@@ -96,22 +101,46 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+
+    
+    {
+      name: "prisma",
+      icon: prisma,
+    },
     {
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
+    
     {
       name: "figma",
       icon: figma,
     },
+
+    {
+      name: "fm",
+      icon: fm,
+    },
+
+    
+
     {
       name: "illustrator",
       icon: adobe,
     },
+
+    {
+      name: "photoshop",
+      icon: ps,
+    },
+
+   
+
+  
+    
+    
+  
+   
   ];
   
   const experiences = [
@@ -122,9 +151,10 @@ import {
       iconBg: "#ffffff",
       date: "July 2021 - September 2021",
       points: [
-        "Developing and maintaining web applications using Wordpress,Elementor pro and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed and deployed a diverse range of websites for international clients, specializing in e-commerce, business, and blog websites on various frameworks, including the WordPress platform. ",
+
+        "Leveraged expertise in Elementor Pro and other premium plugins to create visually stunning and highly functional websites."
+        
         
       ],
     },
@@ -135,7 +165,7 @@ import {
       iconBg: "#ffffff",
       date: "March 2023 - June 2023",
       points: [
-        "Created a modern, fully-functional website using WordPress, integrating contemporary design elements for an enhanced user experience.",
+        "Created modern, fully-functional two Prisma's websites, integrating contemporary design elements for an enhanced user experience.",
         "Successfully handled seamless transition of domain and server infrastructure, ensuring uninterrupted online presence.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Designed all website graphics, establishing a distinct visual identity aligned with the company's brand.",
@@ -148,8 +178,8 @@ import {
       iconBg: "#ffffff",
       date: "july 2022 - currently",
       points: [
-        "Developed visually appealing websites with contemporary aesthetics, featuring captivating graphics for an engaging user experience.",
-        "Ensured optimal user experience across all devices by meticulously integrating responsive design techniques, enhancing accessibility and usability.",
+        "Transforming visions into remarkable online experiences. Crafted captivating websites infused with striking graphics and visuals.",
+        "Delivered tailored solutions that fused aesthetics and functionality, exceeding client expectations.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         
       ],
@@ -238,7 +268,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Google Auth",
+          name: "next-auth",
           color: "pink-text-gradient",
         },
       ],

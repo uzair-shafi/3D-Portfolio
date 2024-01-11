@@ -7,8 +7,12 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
 import css from "./tech/css.png";
+import prisma from "./tech/prisma.png";
+import fm from "./tech/fm.png";
 import adobe from "./tech/adobe.svg";
+import ps from "./tech/ps.svg";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  ps,
+  prisma,
+  fm,
 };
