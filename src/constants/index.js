@@ -122,24 +122,7 @@ import {
       icon: fm,
     },
 
-    
 
-    {
-      name: "illustrator",
-      icon: adobe,
-    },
-
-    {
-      name: "photoshop",
-      icon: ps,
-    },
-
-   
-
-  
-    
-    
-  
    
   ];
   
