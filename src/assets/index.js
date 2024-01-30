@@ -33,6 +33,9 @@ import on from "./company/on.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import krypt from "./krypt.png";
+import ana from "./ana.png";
+import orn from "./orn.png";
 
 export {
   logo,
@@ -66,5 +69,8 @@ export {
   ps,
   prisma,
   on,
+  orn,
+  ana,
+  krypt,
   fm,
 };

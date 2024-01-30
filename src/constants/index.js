@@ -27,6 +27,9 @@ import {
   ps,
   on,
   prisma,
+  orn,
+  ana,
+  krypt,
 } from "../assets";
 
 export const navLinks = [
@@ -245,6 +248,28 @@ const projects = [
     source_code_link:
       "https://github.com/uzair-shafi/NEXTJS-Metaverse-page.git",
   },
+
+  {
+    name: "Krypt",
+    description:
+      "It is a modern web3.0 application where a user can send digital currencies to anyone around the world.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ether",
+        color: "green-text-gradient",
+      },
+      {
+        name: "smart contract",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: krypt,
+    source_code_link: "https://github.com/uzair-shafi/web3.0-Application.git",
+  },
   {
     name: "Blog Website",
     description:
@@ -264,7 +289,53 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/uzair-shafi/NEXTJS-Blog-Website-CRUD.git",
+  },
+
+  {
+    name: "Nust Orientation Website",
+    description:
+      "Crafted a website using Next.js and Framer Motion resulting in a visually captivating platform for the event.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orn,
+    source_code_link: "https://github.com/uzair-shafi/Orientation-Nust.git",
+  },
+
+  {
+    name: "Ana Blogs",
+    description:
+      "A complete blog website with Light/Dark Mode, Google Sign In, Text Editor, categories based pages, comments functionality. ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ana,
+    source_code_link:
+      "https://github.com/uzair-shafi/Next-js-full-stack-blog-website-Prisma.git",
   },
 ];
 
