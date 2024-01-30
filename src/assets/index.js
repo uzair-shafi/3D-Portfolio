@@ -7,7 +7,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-
 import css from "./tech/css.png";
 import prisma from "./tech/prisma.png";
 import fm from "./tech/fm.png";
@@ -29,6 +28,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import on from "./company/on.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,5 +65,6 @@ export {
   tripguide,
   ps,
   prisma,
+  on,
   fm,
 };
