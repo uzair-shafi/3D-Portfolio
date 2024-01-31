@@ -9,7 +9,7 @@ const Hero = () => {
       className={`relative w-full justify-center h-screen mx-auto -mt-2`}
     >
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 -mt-2`}
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 -mt-8`}
       >
         <div className="flex flex-col justify-center items-center mt-5 -">
           <div className="w-4 h-4 rounded-full bg-[#915EFF]" />
