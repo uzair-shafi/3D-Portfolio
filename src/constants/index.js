@@ -271,7 +271,7 @@ const projects = [
     source_code_link: "https://github.com/uzair-shafi/web3.0-Application.git",
   },
   {
-    name: "Blog Website",
+    name: "CRUD Blog Website",
     description:
       "Dynamic blog website with dual light/dark mode, integrated Google authentication, user registration for an enriched user experience.",
     tags: [
