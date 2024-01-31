@@ -12,7 +12,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center pt-5 z-50 `}>
+    <nav
+      className={`${styles.paddingX} w-full flex items-center relative pt-5  `}
+    >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -42,7 +44,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="flex flex-row gap-2 z-1000 ">
+          <div className="flex flex-row gap-2  ">
             <img
               onClick={() =>
                 window.open("https://github.com/uzair-shafi", "_blank")
