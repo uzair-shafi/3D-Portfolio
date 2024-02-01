@@ -12,6 +12,11 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  prismaas,
+  prismagrid,
+  axesell,
+  vetrox,
+  invicta,
   git,
   figma,
   adobe,
@@ -25,8 +30,8 @@ import {
   threejs,
   fm,
   ps,
-  on,
   prisma,
+  on,
   orn,
   ana,
   krypt,
@@ -339,4 +344,121 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+//wordpress projects
+
+const wprojects = [
+  {
+    name: "Prisma Assist",
+    description:
+      "It is a modern web3.0 application where a user can send digital currencies to anyone around the world.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor Pro",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prismaas,
+    source_code_link: "https://prismaassist.com/",
+  },
+
+  {
+    name: "PrismaGrid",
+    description:
+      "Next.js powered website showcasing a modern aesthetic with captivating animations.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor Pro",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prismagrid,
+    source_code_link: "https://prismagrid.io/",
+  },
+
+  {
+    name: "Invicta-Counseling",
+    description:
+      "Cutting-edge business website crafted with React and Tailwind CSS, featuring a sleek, modern design with an elegant dark theme.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Elementor pro",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: invicta,
+    source_code_link: "https://invicta-counseling.com/",
+  },
+  {
+    name: "Vatrox Pharma",
+    description:
+      "Dynamic blog website with dual light/dark mode, integrated Google authentication, user registration for an enriched user experience.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor Pro",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vetrox,
+    source_code_link: "https://vetroxpharma.com/",
+  },
+
+  {
+    name: "Axesell",
+    description:
+      "Crafted a website using Next.js and Framer Motion resulting in a visually captivating platform for the event.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor Pro",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: axesell,
+    source_code_link: "http://axesell.co/",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  wprojects,
+};

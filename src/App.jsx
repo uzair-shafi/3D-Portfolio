@@ -7,6 +7,7 @@ import {
   Feedbacks,
   Hero,
   Navbar,
+  Wordpress,
   Tech,
   Works,
   StarsCanvas,
@@ -27,6 +28,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <Wordpress />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

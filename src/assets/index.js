@@ -32,8 +32,14 @@ import tesla from "./company/tesla.png";
 import on from "./company/on.png";
 
 import carrent from "./carrent.png";
+import link from "./link.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import prismaas from "./prisma.png";
+import prismagrid from "./prismagrid.png";
+import axesell from "./axesell.png";
+import invicta from "./invicta.png";
+import vetrox from "./vetrox.png";
 import krypt from "./krypt.png";
 import ana from "./ana.png";
 import orn from "./orn.png";
@@ -47,9 +53,15 @@ export {
   github,
   menu,
   close,
+  prismaas,
+  prismagrid,
+  axesell,
+  invicta,
+  vetrox,
   css,
   adobe,
   figma,
+  link,
   git,
   html,
   javascript,
