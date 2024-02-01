@@ -1,13 +1,14 @@
 import React from "react";
 import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { wprojects } from "../constants";
-import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const WprojectCard = ({
+const ProjectCard = ({
   index,
   name,
   description,
@@ -41,11 +42,11 @@ const WprojectCard = ({
           onClick={() => window.open(source_code_link, "_blank")}
           className="flex gap-3 violet-gradientbut py-2 px-4 rounded-xl outline-none w-fit text-white font-semi-bold mt-5 text-[14px] items-center cursor-pointer"
         >
+          {" "}
           See Live
           <div>
             <img
               src={link}
-              alt="source code"
               className="w-[15px] h-[15px] object-contain items-center"
             />
           </div>
@@ -69,18 +70,27 @@ const WprojectCard = ({
 const Wordpress = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className="mt-16">
-        <p className={`${styles.sectionSubText} text-center`}>Other Projects</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>WordPress.</h2>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center mt-0 `}>
+          Other Projects
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Wordpress.</h2>
       </motion.div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-0 "
+        ></motion.p>
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-7 justify-center">
         {wprojects.map((project, index) => (
-          <WprojectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
   );
 };
 
-export default Wordpress;
+export default SectionWrapper(Wordpress, "");
