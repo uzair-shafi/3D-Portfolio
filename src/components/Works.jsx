@@ -30,7 +30,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-lg"
+            className=" object-cover rounded-lg"
           />
 
           <div className="absolute flex justify-end right-6 top-6 card-img_hover">
@@ -102,7 +102,7 @@ const Works = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

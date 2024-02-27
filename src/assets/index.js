@@ -41,6 +41,8 @@ import axesell from "./axesell.png";
 import invicta from "./invicta.png";
 import vetrox from "./vetrox.png";
 import krypt from "./krypt.png";
+import crowd from "./crowd.png";
+import travel from "./travel.png";
 import ana from "./ana.png";
 import orn from "./orn.png";
 
@@ -87,4 +89,6 @@ export {
   krypt,
   linked,
   fm,
+  crowd,
+  travel,
 };

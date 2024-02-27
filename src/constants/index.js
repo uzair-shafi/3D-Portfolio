@@ -35,6 +35,8 @@ import {
   orn,
   ana,
   krypt,
+  crowd,
+  travel,
 } from "../assets";
 
 export const navLinks = [
@@ -132,17 +134,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Internee",
-    company_name: "Fillinx Solutions",
-    icon: starbucks,
+    title: "Web Developer Team Member",
+    company_name: "Nust Orientation'23",
+    icon: on,
     iconBg: "#ffffff",
-    date: "July 2021 - September 2021",
+    date: "july 2023 - September 2023",
     points: [
-      "Developed and deployed a diverse range of websites for international clients, specializing in e-commerce, business, and blog websites on various frameworks, including the WordPress platform. ",
-
-      "Leveraged expertise in Elementor Pro and other premium plugins to create visually stunning and highly functional websites.",
+      "As a team member for NUST Orientation, I co-developed a captivating website using Next.js.",
+      "The site was enriched with dynamic animations using Framer Motion, adding a layer of interactivity to enhance the user experience.",
+      "The sleek design was achieved through the implementation of Tailwind CSS, showcasing my full-stack skills and collaborative approach to delivering an impactful digital presence for the university event.",
     ],
   },
+
   {
     title: "Web Developer",
     company_name: "PrismaGrid",
@@ -158,15 +161,15 @@ const experiences = [
   },
 
   {
-    title: "Web Developer Team Member",
-    company_name: "Nust Orientation'23",
-    icon: on,
+    title: "Web Developer Internee",
+    company_name: "Fillinx Solutions",
+    icon: starbucks,
     iconBg: "#ffffff",
-    date: "july 2023 - September 2023",
+    date: "July 2021 - September 2021",
     points: [
-      "As a team member for NUST Orientation, I co-developed a captivating website using Next.js.",
-      "The site was enriched with dynamic animations using Framer Motion, adding a layer of interactivity to enhance the user experience.",
-      "The sleek design was achieved through the implementation of Tailwind CSS, showcasing my full-stack skills and collaborative approach to delivering an impactful digital presence for the university event.",
+      "Developed and deployed a diverse range of websites for international clients, specializing in e-commerce, business, and blog websites on various frameworks, including the WordPress platform. ",
+
+      "Leveraged expertise in Elementor Pro and other premium plugins to create visually stunning and highly functional websites.",
     ],
   },
 
@@ -213,17 +216,128 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Business Website",
+    name: "Crowdfunding Dapp",
     description:
-      "Cutting-edge business website crafted with React and Tailwind CSS, featuring a sleek, modern design with an elegant dark theme.",
+      "A blockchain based application that allows users to invest money to the campaigns that interest them.",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
 
       {
-        name: "tailwind",
+        name: "Ethers",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crowd,
+    source_code_link: "https://github.com/uzair-shafi/Crowdfunding-Dapp.git",
+  },
+
+  {
+    name: "Krypt",
+    description:
+      "It is a modern web3.0 application where a user can send digital currencies to anyone around the world.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ethers",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: krypt,
+    source_code_link: "https://github.com/uzair-shafi/web3.0-Application.git",
+  },
+
+  {
+    name: "Ana Blogs",
+    description:
+      "A complete blog website with Light/Dark Mode, Google Sign In, Text Editor, categories based pages, comments functionality. ",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ana,
+    source_code_link:
+      "https://github.com/uzair-shafi/Next-js-full-stack-blog-website-Prisma.git",
+  },
+
+  {
+    name: "Hilink Landing Page",
+    description:
+      "A Fully Responsive Modern UI/UX Landing Page crafted using Next.js 13, typescript, Tailwind CSS",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link: "https://github.com/uzair-shafi/Orientation-Nust.git",
+  },
+
+  {
+    name: "Nust Orientation Website",
+    description:
+      "Crafted a website using Next.js and Framer Motion resulting in a visually captivating platform for the event.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orn,
+    source_code_link: "https://github.com/uzair-shafi/Orientation-Nust.git",
+  },
+  {
+    name: "Hoobank Landing Page",
+    description:
+      "Cutting-edge business website crafted with React and Tailwind CSS, featuring a sleek, modern design with an elegant dark theme.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -232,7 +346,7 @@ const projects = [
       "https://github.com/uzair-shafi/Dark-Themed-React-Business-Website.git",
   },
   {
-    name: "Metaverse",
+    name: "Metaverse Landing Page",
     description:
       "Next.js powered website showcasing a modern aesthetic with captivating animations.",
     tags: [
@@ -255,92 +369,26 @@ const projects = [
   },
 
   {
-    name: "Krypt",
-    description:
-      "It is a modern web3.0 application where a user can send digital currencies to anyone around the world.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ether",
-        color: "green-text-gradient",
-      },
-      {
-        name: "smart contract",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: krypt,
-    source_code_link: "https://github.com/uzair-shafi/web3.0-Application.git",
-  },
-  {
     name: "CRUD Blog Website",
     description:
       "Dynamic blog website with dual light/dark mode, integrated Google authentication, user registration for an enriched user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongo",
         color: "green-text-gradient",
       },
       {
-        name: "next-auth",
+        name: "Next-Auth",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link:
       "https://github.com/uzair-shafi/NEXTJS-Blog-Website-CRUD.git",
-  },
-
-  {
-    name: "Nust Orientation Website",
-    description:
-      "Crafted a website using Next.js and Framer Motion resulting in a visually captivating platform for the event.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Framer Motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: orn,
-    source_code_link: "https://github.com/uzair-shafi/Orientation-Nust.git",
-  },
-
-  {
-    name: "Ana Blogs",
-    description:
-      "A complete blog website with Light/Dark Mode, Google Sign In, Text Editor, categories based pages, comments functionality. ",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Mongo",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ana,
-    source_code_link:
-      "https://github.com/uzair-shafi/Next-js-full-stack-blog-website-Prisma.git",
   },
 ];
 
